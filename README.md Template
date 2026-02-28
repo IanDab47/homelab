@@ -1,0 +1,19 @@
+# Homelab Public Documentation
+
+Welcome to my homelab documentation. This repository outlines my architecture, network design, VM inventory, services, workflows, and lessons learned. All sensitive information has been abstracted.
+
+## Table of Contents
+
+- [Architecture](docs/architecture.md)
+- [Network](docs/network.md)
+- [VM Inventory](docs/vm-inventory.md)
+- **Services**
+  - [Proxmox](docs/services/proxmox.md)
+  - [OPNsense](docs/services/opnsense.md)
+  - [Docker / K8s](docs/services/docker-k8s.md)
+  - [ZFS](docs/services/zfs.md)
+- **Workflows**
+  - [Backups](docs/workflows/backups.md)
+  - [Updates](docs/workflows/updates.md)
+  - [Monitoring](docs/workflows/monitoring.md)
+- [Lessons Learned](docs/lessons.md)
